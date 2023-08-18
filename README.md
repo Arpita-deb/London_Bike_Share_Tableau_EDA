@@ -116,9 +116,30 @@ From the above analysis, the following conclusions can be drawn:
 
 
 ## Dashboard:
+For this project I've created an exploratory dashboard providing an overview of the analysis, highlighting important insights. 
+
+In order to build the tableau visualizations and the dashboards, I've taken the following steps:
+
+1. Used floating containers to contain the individual data visualizations.
+
+2. Used titles for each of the visualizations and the dashboard.
+
+3. Used filter and annotations to highlight important data points.
+
+4. Used consistent color scheme that enhances the data.
+
+5. Cleared the chart junks such as titles of individual data viz, axis and axis labels, color legends etc that doesn't contribute to the data design.
+
+6. Visually grouped the data by using layout containers and colored background
+
+7. Added filter and highlight actions in the dashboard to provide user interactivities.
+
+8. Added an info button that provides additional informations on the dataset and how to read the dashboard.
+
+9. Created 3 device specific layouts.
 
 
-![London Bike Share Dashboard](https://github.com/Arpita-deb/London_Bike_Share_Tableau_EDA/assets/139372731/6d40fa25-c5f6-40e6-8802-a8de7fa26681)
+![London Bike Share Dashboard]()
 
 check out the dashboard here [London Bike Share - What do you need to know before heading out?](https://public.tableau.com/views/LondonBikeShare_16917538190290/Dashboard4?:language=en-US&:display_count=n&:origin=viz_share_link)
 
