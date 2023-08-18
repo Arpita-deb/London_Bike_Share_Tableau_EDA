@@ -8,37 +8,17 @@ Santander Cycles (or Boris Bikes) is a public bicycle hire scheme in London in t
 
 ## Data Dictionary:
 
-* **Timestamp** — timestamp field for grouping the data
-
-* **Count Of Bikes** — the count of a new bike shares
-
-* **Temp** — real temperature in degree celsius
-
-* **Humidity** — humidity in percentage
-
-* **Wind Speed** — wind speed in km/h
-
-* **Weather Code** — category of the weather
-
-    1 = Clear
-  
-    2 = scattered clouds / few clouds
-  
-    3 = Broken clouds
-  
-    4 = Cloudy
-  
-    7 = Rain/ light Rain shower/ Light rain
-  
-    10 = rain with thunderstorm
-  
-    26 = snowfall
-
-* **Is holiday** — *Boolean field* — 1 =holiday; 0= non holiday
-
-* **Is weekend** — *Boolean field* — 1=weekend; 0=weekday
-
-* **Season** — category field meteorological seasons (spring, summer, fall and winter)
+| Column Name | Column Description|
+| :---        | :---              |
+| **Timestamp** | timestamp field for grouping the data |
+| **Count Of Bikes** | the count of a new bike shares |
+| **Temp** | real temperature in degree celsius |
+| **Humidity** | humidity in percentage |
+| **Wind Speed** | wind speed in km/h|
+| **Weather Code** | category of the weather 1 = Clear; 2 = scattered clouds / few clouds; 3 = Broken clouds; 4 = Cloudy; 7 = Rain/ light Rain shower/ Light rain; 10 = rain with thunderstorm; 26 = snowfall |
+| **Is holiday** | *Boolean field* 1 =holiday; 0= non holiday |
+| **Is weekend** | *Boolean field* 1=weekend; 0=weekday |
+| **Season** | category field meteorological seasons (spring, summer, fall and winter) |
 
 ## Overview of the Project:
 
