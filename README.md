@@ -1,23 +1,24 @@
 # Exploratory data analysis of the London Public Bikes dataset for 2016 with Tableau
+
 ## Introduction:
 Santander Cycles (or Boris Bikes) is a public bicycle hire scheme in London in the United Kingdom. The scheme commencing on 30 July 2010 with 5,000 bicycles and 315 docking stations distributed across the City of London, now spreads across 40 square miles of London with over 12,000 bikes and 800 stations. I've used Tableau to provide an Exploratory Data Analysis (EDA) with visualizations of bike usage in the year 2016 to find out if weather, season, holidays and other such variables have any effect on number of bike users and created a final dashboard to bring all the insights together in Tableau Public.
 
 ## Dataset Used: 
-Historical data for bike sharing in London [Powered by TFL Open Data](https://www.kaggle.com/datasets/hmav) from Kaggle. I’ve filtered the data only for year 2016 with 8699 rows and 9 columns for every hour of the year which contains data on 10,129,546 bikes.
+[Historical data for bike sharing in London 'Powered by TFL Open Data'](https://www.kaggle.com/datasets/hmav) from Kaggle. I’ve filtered the data only for the year 2016, with 8699 rows and 9 columns for every hour of the year which contains data on 10,129,546 bikes.
 
 ## Data Dictionary:
 
-* Timestamp — timestamp field for grouping the data
+* **Timestamp** — timestamp field for grouping the data
 
-* Count Of Bikes — the count of a new bike shares
+* **Count Of Bikes** — the count of a new bike shares
 
-* Temp — real temperature in C
+* **Temp** — real temperature in degree celsius
 
-* Humidity — humidity in percentage
+* **Humidity** — humidity in percentage
 
-* Wind Speed — wind speed in km/h
+* **Wind Speed** — wind speed in km/h
 
-* Weather Code — category of the weather
+* **Weather Code** — category of the weather
 
     1 = Clear
   
@@ -33,11 +34,11 @@ Historical data for bike sharing in London [Powered by TFL Open Data](https://ww
   
     26 = snowfall
 
-* Is holiday — *Boolean field* — 1 =holiday; 0= non holiday
+* **Is holiday** — *Boolean field* — 1 =holiday; 0= non holiday
 
-* Is weekend — *Boolean field* — 1=weekend; 0=weekday
+* **Is weekend** — *Boolean field* — 1=weekend; 0=weekday
 
-* Season — category field meteorological seasons (spring, summer, fall and winter)
+* **Season** — category field meteorological seasons (spring, summer, fall and winter)
 
 ## Overview of the Project:
 
@@ -49,15 +50,14 @@ The analysis is broken down into 2 parts:
 2. Which weekdays were most busiest?
 3. Is there any difference of bike riders in weekdays and weekends?
 4. How many bike riders used these public bikes on holidays and non-holidays?
-5. What percentage of riders used the bikes on weekdays/weekends and holidays/non-holidays?
-6. Which hour sees the highest number of bike users during weekdays as well as weekends?
+5. Which hour sees the highest number of bike users during weekdays as well as weekends?
 
 **Part 2**: Here I'll investigate the effects of season, weather, temperature, humidity and wind speed over the bike usage.
 
-Riding bike is an outdoor activity and naturally it is affected by weather and seasons equally. As a summer morning will draw more people out than a rainy or snowy day, it is important to take into account the effect of seasons. In this part, I'll be looking for answers to these questions:
+Riding bike is an outdoor activity and naturally it is affected by weather and seasons equally. As a summer morning will draw more people out than a rainy or snowy day, it is important to take into account the effect of different weather conditions. In this part, I'll be looking for answers to these questions:
 
 1. Which season is the most popular for bike riding?
-2. How does temperature, humidity and wind speed effect number of bike users?
+2. How do temperature, humidity and wind speed effect number of bike users?
 3. Which weather conditions were most suitable for bike riding?
 
 ## Analysis:
@@ -80,19 +80,34 @@ Riding bike is an outdoor activity and naturally it is affected by weather and s
 
 ![weekends by seasons](https://github.com/Arpita-deb/London_Bike_Share_Tableau_EDA/assets/139372731/b9f29257-9d9f-4a23-8591-d0bd110b08b3)
 
+From the above visualizations, the following insights can be inferred:
+
+* **July** showed the highest number of bike users in 2016.
+* Most of the bikes were used on **Tuesday, Wednesday and Thursday**.
+* There is a significant difference of bike riders in weekdays and weekends. People used these public bikes mostly to commute to workplaces which coincides with our observation of having the number of riders on weekdays being **3 times** of the number of riders on weekends.
+* People tend to use these public bikes not only for going to and from workplaces, but for leisure as well on weekends, a significant number being on **Summer** when the weather is temperate and mild.
+* **99% of the total users** i.e more than 9 million people used bikes on **non-holidays**, as the number of holidays being very small as compared to the number of non-holidays.
+* Among the holidays, people mostly used the bikes on **summer bank holiday** in August.
+* The busiest hour in weekdays for all the months is **8 AM** and **5 PM**, and for weekends between **1 PM - 5 PM**.
+
 **Part 2**:
 
 ![seasons donut](https://github.com/Arpita-deb/London_Bike_Share_Tableau_EDA/assets/139372731/9b51b207-9137-471f-81fa-a370f2151f75)
 
 ![Scatterplot](https://github.com/Arpita-deb/London_Bike_Share_Tableau_EDA/assets/139372731/0f957dee-dc4f-44e6-9850-fe1cc0eb76fa)
+The scatterplot shows the number of riders on clear days.
 
 ![scattered clouds (2)](https://github.com/Arpita-deb/London_Bike_Share_Tableau_EDA/assets/139372731/340a1f12-f658-4043-afd1-606a210e6736)
+This scatterplot shows the number of riders during days with scattered clouds. 
 
 ![cloudy (2)](https://github.com/Arpita-deb/London_Bike_Share_Tableau_EDA/assets/139372731/a7d7147b-3c02-43f6-a80d-1cfd76e94ea8)
+This scatterplot shows the number of riders during cloudy days.
 
 ![thunderstorm (2)](https://github.com/Arpita-deb/London_Bike_Share_Tableau_EDA/assets/139372731/1edce8e9-f656-4d1a-a83e-c7625196ce25)
+This scatterplot shows the number of riders during thunderstorms.
 
 ![snowing (2)](https://github.com/Arpita-deb/London_Bike_Share_Tableau_EDA/assets/139372731/1900db97-81f6-4aae-857f-fb0d98eabab0)
+This scatterplot shows the number of riders when it was snowing in and around London. 
 
 ![humidity histogram](https://github.com/Arpita-deb/London_Bike_Share_Tableau_EDA/assets/139372731/26d9e68d-845d-4895-9d79-75193b7d9d48)
 
@@ -101,6 +116,13 @@ Riding bike is an outdoor activity and naturally it is affected by weather and s
 ![temp histogram](https://github.com/Arpita-deb/London_Bike_Share_Tableau_EDA/assets/139372731/2e0d633d-49d4-4f68-9e59-ce2d13e3861e)
 
 ![cummulative effects of weather](https://github.com/Arpita-deb/London_Bike_Share_Tableau_EDA/assets/139372731/f090a31e-ee7d-4e51-a2d1-a01e08343fad)
+
+From the analysis of various weather conditions, the following insights can be drawn-
+* **Summer** has the highest number of bike users.
+* The effect of seasons and weather on number of bike users is that mild and temperate climate draws more people out, while extreme heat or cold or rain decreases the number of users.
+* Humidity has a **negative correlation** with number of users, as can be seen from the scatterplots. Number of riders decreases as humidity of the air increases. Autumn (September - November) is usually London’s rainiest season and Winters (December - February) are characterised by cold and often rainy weather. During these months humidity was 80-90%, which indicates higher chances of precipitation.
+* The temperature range was between **10-12 degree celsius** when most of the people rode out. Upto a certain point, number of bike users has a **positive correlation** with temperature, but high temperature (during Summer season) is also unfavourable for riding out.
+* The wind speed has **no visible correlation** with number of bike riders, though heavy rainfall and snowstorms are often accompanied by high wind speed.
 
 ## Conclusion: 
 
@@ -139,11 +161,11 @@ In order to build the tableau visualizations and the dashboards, I've taken the 
 9. Created 3 device specific layouts.
 
 
-![London Bike Share Dashboard]()
+![Screenshot (421)](https://github.com/Arpita-deb/London_Bike_Share_Tableau_EDA/assets/139372731/72eec627-9e28-45d2-a87f-2b8405936738)
 
-check out the dashboard here [London Bike Share - What do you need to know before heading out?](https://public.tableau.com/views/LondonBikeShare_16917538190290/Dashboard4?:language=en-US&:display_count=n&:origin=viz_share_link)
+Check out the dashboard here [London Bike Share - What do you need to know before heading out?](https://public.tableau.com/views/LondonBikeShare_16917538190290/Dashboard4?:language=en-US&:display_count=n&:origin=viz_share_link)
 
-## Citations:
+## References:
 
 * [Santander Cycles](https://en.wikipedia.org/wiki/Santander_Cycles)
 * [Climate of London](https://en.wikipedia.org/wiki/Climate_of_London)
