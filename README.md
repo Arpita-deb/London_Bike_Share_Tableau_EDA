@@ -64,10 +64,51 @@ Riding bike is an outdoor activity and naturally it is affected by weather and s
 
 **Part 1**:
 
+![Number of bikes used in each month)](https://github.com/Arpita-deb/London_Bike_Share_Tableau_EDA/assets/139372731/895fae6d-9d72-4798-89aa-c570bf7c63ac)
+
+![number of bikes by weekday](https://github.com/Arpita-deb/London_Bike_Share_Tableau_EDA/assets/139372731/23ddcb12-3a0d-4ecb-bd5e-fb1e52a53a0a)
+
+![Weekend/weekday](https://github.com/Arpita-deb/London_Bike_Share_Tableau_EDA/assets/139372731/6d15bb87-32b2-4d44-8fc8-a439c0d0df7d)
+
+![holiday/nonholiday donut](https://github.com/Arpita-deb/London_Bike_Share_Tableau_EDA/assets/139372731/f768e3ca-6d07-49d4-b061-b4a1cdc8f945)
+
+![list of holidays](https://github.com/Arpita-deb/London_Bike_Share_Tableau_EDA/assets/139372731/11d595df-1dac-4ef8-80e3-9adf847e4cba)
+
+![hour of the day](https://github.com/Arpita-deb/London_Bike_Share_Tableau_EDA/assets/139372731/3bac74e3-9a4b-46ed-80d0-8f1ca39a2481)
+
+![hours for weekends/weekdays)](https://github.com/Arpita-deb/London_Bike_Share_Tableau_EDA/assets/139372731/b0d073f7-143a-47c7-bd36-6e5a9a7fd29e)
+
+![weekends by seasons](https://github.com/Arpita-deb/London_Bike_Share_Tableau_EDA/assets/139372731/b9f29257-9d9f-4a23-8591-d0bd110b08b3)
+
+**Part 1**:
+
+![seasons donut](https://github.com/Arpita-deb/London_Bike_Share_Tableau_EDA/assets/139372731/9b51b207-9137-471f-81fa-a370f2151f75)
+
+![Scatterplot](https://github.com/Arpita-deb/London_Bike_Share_Tableau_EDA/assets/139372731/0f957dee-dc4f-44e6-9850-fe1cc0eb76fa)
+
+![humidity histogram](https://github.com/Arpita-deb/London_Bike_Share_Tableau_EDA/assets/139372731/26d9e68d-845d-4895-9d79-75193b7d9d48)
+
+![temp graph](https://github.com/Arpita-deb/London_Bike_Share_Tableau_EDA/assets/139372731/f2c1c56a-89ba-4297-a38e-cd6a6a897df9)
+
+![temp histogram](https://github.com/Arpita-deb/London_Bike_Share_Tableau_EDA/assets/139372731/2e0d633d-49d4-4f68-9e59-ce2d13e3861e)
+
+![cummulative effects of weather](https://github.com/Arpita-deb/London_Bike_Share_Tableau_EDA/assets/139372731/f090a31e-ee7d-4e51-a2d1-a01e08343fad)
+
+## Conclusion: 
+
+From the above analysis, the following conclusions can be drawn:
+
+1. Weather and seasons have positive if not strong influence over the number of bike riders in London. Temperate weather conditions as can be seen in summer and fall, draws more riders out than a rainy or snowy day.
+   
+2. Number of riders seems to increase as temperature increases, annually as well as daily. July and August had the highest number of riders, while these were also the warmest months in 2016.
+   
+3. Number of riders gradually decreases as humidity of the air increases. It coincides well with people heading out on clearer days than on cloudy or rainy days.
+   
+4. Most people tend to use bikes during the daytime rush-hours i.e., at 8 AM and 5 PM during weekdays, as they commute to and from workplaces. On weekends most people use bikes in early afternoon (1PM — 5PM).
 
 
+## Dashboard:
 
-Dashboard:
 
 ![London Bike Share Dashboard](https://github.com/Arpita-deb/London_Bike_Share_Tableau_EDA/assets/139372731/6d40fa25-c5f6-40e6-8802-a8de7fa26681)
 
