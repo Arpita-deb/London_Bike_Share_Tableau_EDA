@@ -80,11 +80,19 @@ Riding bike is an outdoor activity and naturally it is affected by weather and s
 
 ![weekends by seasons](https://github.com/Arpita-deb/London_Bike_Share_Tableau_EDA/assets/139372731/b9f29257-9d9f-4a23-8591-d0bd110b08b3)
 
-**Part 1**:
+**Part 2**:
 
 ![seasons donut](https://github.com/Arpita-deb/London_Bike_Share_Tableau_EDA/assets/139372731/9b51b207-9137-471f-81fa-a370f2151f75)
 
 ![Scatterplot](https://github.com/Arpita-deb/London_Bike_Share_Tableau_EDA/assets/139372731/0f957dee-dc4f-44e6-9850-fe1cc0eb76fa)
+
+![scattered clouds (2)](https://github.com/Arpita-deb/London_Bike_Share_Tableau_EDA/assets/139372731/340a1f12-f658-4043-afd1-606a210e6736)
+
+![cloudy (2)](https://github.com/Arpita-deb/London_Bike_Share_Tableau_EDA/assets/139372731/a7d7147b-3c02-43f6-a80d-1cfd76e94ea8)
+
+![thunderstorm (2)](https://github.com/Arpita-deb/London_Bike_Share_Tableau_EDA/assets/139372731/1edce8e9-f656-4d1a-a83e-c7625196ce25)
+
+![snowing (2)](https://github.com/Arpita-deb/London_Bike_Share_Tableau_EDA/assets/139372731/1900db97-81f6-4aae-857f-fb0d98eabab0)
 
 ![humidity histogram](https://github.com/Arpita-deb/London_Bike_Share_Tableau_EDA/assets/139372731/26d9e68d-845d-4895-9d79-75193b7d9d48)
 
