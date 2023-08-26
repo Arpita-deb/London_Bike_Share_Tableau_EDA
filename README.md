@@ -1,4 +1,5 @@
-# Exploratory data analysis of the London Public Bikes dataset for 2016 with Tableau
+# London Public Bikes - What do you need to know before heading out?
+## Exploratory data analysis of the London Public Bikes dataset for 2016 with Tableau
 
 ## Introduction:
 Santander Cycles (or Boris Bikes) is a public bicycle hire scheme in London in the United Kingdom. The scheme commencing on 30 July 2010 with 5,000 bicycles and 315 docking stations distributed across the City of London, now spreads across 40 square miles of London with over 12,000 bikes and 800 stations. I've used Tableau to provide an Exploratory Data Analysis (EDA) with visualizations of bike usage in the year 2016 to find out if weather, season, holidays and other such variables have any effect on number of bike users and created a final dashboard to bring all the insights together in Tableau Public.
