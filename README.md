@@ -28,7 +28,7 @@ The analysis is broken down into 2 parts:
 **Part 1**: General Statistics for the London Bike Share dataset. In this part, I'll be looking for answers to these questions:
 
 1. Which month showed the highest number of bike riders?
-2. Which weekdays were most busiest?
+2. Which weekdays were busiest?
 3. Is there any difference of bike riders in weekdays and weekends?
 4. How many bike riders used these public bikes on holidays and non-holidays?
 5. Which hour sees the highest number of bike users during weekdays as well as weekends?
