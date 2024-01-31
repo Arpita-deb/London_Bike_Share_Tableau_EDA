@@ -21,6 +21,16 @@ Santander Cycles (or Boris Bikes) is a public bicycle hire scheme in London in t
 | **Is weekend** | *Boolean field* 1=weekend; 0=weekday |
 | **Season** | category field meteorological seasons (spring, summer, fall and winter) |
 
+## Potential Stakeholders:
+
+* Bike-sharing companies: These are the entities that own, operate, and maintain the bike-sharing system, such as providing the bikes, stations, docks, apps, etc.
+
+* The public: These are the potential and actual users of the bike-sharing system, who benefit from the convenience, affordability, and health benefits of bike-sharing.
+
+* The media: These are the platforms that communicate and promote the bike-sharing system to the public, such as social media, news outlets, blogs, etc.
+
+* The government: These are the authorities that regulate and support the bike-sharing system, such as providing policies, subsidies, infrastructure, etc.
+
 ## Overview of the Project:
 
 The analysis is broken down into 2 parts:
@@ -117,6 +127,15 @@ From the above analysis, the following conclusions can be drawn:
    
 4. Most people tend to use bikes during the daytime rush-hours i.e., at 8 AM and 5 PM during weekdays, as they commute to and from workplaces. On weekends most people use bikes in early afternoon (1PM — 5PM).
 
+## Some Recommendations:
+
+* Bike-sharing companies: They should improve their user-interface design, to make it more user-friendly, intuitive, and informative. They should also monitor the feedback and ratings of their products, and adjust their pricing and quality accordingly, to maintain customer satisfaction and loyalty.
+
+* The public: They should use the bike-sharing system responsibly and civilly, by following the relevant rules and norms, such as parking in designated areas, returning the bikes on time, reporting any damages, etc. They should also spread the word and encourage others to use the bike-sharing system, by sharing their positive experiences and benefits on social media, blogs, etc.
+
+* The media: They should raise the awareness and interest of the public towards the bike-sharing system, by highlighting its advantages and impacts on sustainability, health, and mobility. They should also report on the challenges and issues of the bike-sharing system, and provide constructive suggestions and solutions.
+
+* The government: They should provide financial and policy support to the bike-sharing system, such as offering grants, subsidies, tax incentives, etc. They should also provide adequate and safe infrastructure for the bike-sharing system, such as bike lanes, parking zones, signage, etc.
 
 ## Dashboard:
 For this project I've created an exploratory dashboard providing an overview of the analysis, highlighting important insights. 
