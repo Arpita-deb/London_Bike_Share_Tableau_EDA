@@ -1,4 +1,4 @@
-# London Public Bikes - What do you need to know before heading out?
+# Santander Bikes Seasonal Data Analysis for 2016
 ## Exploratory data analysis of the London Public Bikes dataset for 2016 with Tableau
 
 ## Introduction:
