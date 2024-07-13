@@ -138,6 +138,7 @@ From the above analysis, the following conclusions can be drawn:
 * The government: They should provide financial and policy support to the bike-sharing system, such as offering grants, subsidies, tax incentives, etc. They should also provide adequate and safe infrastructure for the bike-sharing system, such as bike lanes, parking zones, signage, etc.
 
 ## Dashboard:
+![Santander cycles ](https://github.com/user-attachments/assets/29025e2d-ca02-4156-a685-591a2e348f33)
 For this project I've created an exploratory dashboard providing an overview of the analysis, highlighting important insights. 
 
 In order to build the tableau visualizations and the dashboards, I've taken the following steps:
@@ -159,9 +160,6 @@ In order to build the tableau visualizations and the dashboards, I've taken the 
 8. Added an info button that provides additional informations on the dataset and how to read the dashboard.
 
 9. Created 3 device specific layouts.
-
-
-![Screenshot (421)](https://github.com/Arpita-deb/London_Bike_Share_Tableau_EDA/assets/139372731/72eec627-9e28-45d2-a87f-2b8405936738)
 
 Check out the dashboard here [London Bike Share - What do you need to know before heading out?](https://public.tableau.com/views/LondonBikeShare_16917538190290/Dashboard4?:language=en-US&:display_count=n&:origin=viz_share_link)
 
